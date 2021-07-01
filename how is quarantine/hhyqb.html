@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- cores para usar:
+#F20C49 vermelho
+#3BBFBF verde/azul
+#9BF2D2 verde pastel
+#F2C48D laranja pastel
+#F29188 salmão
+-->
+<id="main">
+ <header>
+<h1 id="title"> How has your quarantine been?</h1>
+  </header>
+  <div class="container">
+<p id= "description"> Tell us how have you been feeling in these sorrowful times.</p>
+
+<form id="survey-form">
+  <div id=questions>
+  <label id="name-label" for="name">What is your name? </label>
+<input type="name" autofocus placeholder= "ex: Jon Lewis" id="name" required><br><br>
+  
+    <label id="email-label" for="email">What is your email adress </label>
+  <input type="email" required placeholder= "ex: jon@gmail.com" id= "email"> <br><br>
+  
+  <label id="number-label" for="number">How old are you?</label>
+  <input type="number" required placeholder= "ex:10" id= "number" max="120" min="1"><br><br>
+  
+<label id="number-label" for="number">How have you been feeling, mostly?</label>
+ <select id="dropdown" name="cars">
+  <option value="sad">Sad</option>
+  <option value="happy">Happy</option>
+  <option value="relaxed">Relaxed</option>
+  <option value="online classes">Online Classes</option>
+</select>
+</div>
+<fieldset>
+  <legend>Where do you live?</legend>
+<label for="city">
+    <input id="city" type="radio" name="where-live" value=" city"checked>City</label> <br>
+<label for="suburbs">
+    <input id="suburbs" type="radio" name="where-live" value="suburbs">Suburbs</label> <br>
+<label for="other">
+      <input id="other" type="radio" name="where-live" value="other">Other</label><br>
+</fieldset>
+
+  <fieldset>
+    <legend>What have you been doing?</legend>
+    <label for="gaming"><input id="gaming" type="checkbox" value="gaming"> Gaming.</label><br>
+    <label for="reading-books"><input id="reading-books" type="checkbox" value="reading-books"> Reading books.</label><br>
+    <label for="working"><input id="working" type="checkbox" value="working"> Working even more</label><br>
+    <label for="getting-shape"><input id="getting-shape" type="checkbox" value="getting-shape"> Getting in shape</label><br>
+
+  </fieldset>
+    
+<p>What would you be doing if it wasn't for quarantine?<textarea placeholder="free"> </textarea> </p>   
+      <p> <input type="submit" id="submit" value="Submit" class="button"> </p>
+  </div>
+</form>
+</id>

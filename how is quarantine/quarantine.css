@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:light|Quicksand');
+html,
+
+  body {
+    background-color: #9BF2D2;
+    text-align: center; 
+    min-width: 320px;
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+}
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3em; 
+}
+textarea{
+  width: 100%;
+  margin-top: 1.5%;
+  background-color: #F2C48D;
+  border: 2px solid #3BBFBF;
+  resize: none;
+  font-size: 1.2em;
+  font-family: sans-serif
+}
+.container{
+  margin: 2% 30% 2% 30%;
+  padding: 1% 2% 1% 2%;
+  border-color: #F2C48D;
+  border-style: double;
+  border-radius: 10px;
+}
+input, select{
+  width: 100%;
+  margin-top: 1.5%;
+  background: #3BBFBF;
+  border: none;
+  border-bottom: 2px solid #F29188;
+  color: #9BF2D2; 
+}
+#dropdown{
+  border: 2px solid #9BF2D2;
+}
+[type="checkbox"],[type='radio']{
+  width: auto;
+}
+
+#description{
+  margin: -5px 5px 5% 5px;
+  font-family: "Poppins"; 
+  font-size: 1.2em;
+}
+#questions{
+  text-align:left;
+}
